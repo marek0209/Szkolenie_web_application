@@ -1,0 +1,85 @@
+/* 
+/* 
+	Section Background (bg.css)
+	
+	Table of Content
+	- general settings for section & subheader
+	- background settings for section
+	- media query
+/*
+
+
+/* background settings for section */
+#section-hero {background:url(../images/background/1.jpg) fixed;}
+#section-process {background:url(../images/background/2.jpg) fixed;}
+#section-team {background:url(../images/background/3.jpg) fixed;}
+#section-services {background:url(../images/background/4.jpg) fixed;}
+
+#section-contact.side-bg .background-image{background:url(../images/background/s1.jpg);}
+
+
+#section-hero-2 {background:url(../images/background/5.jpg) top;}
+#section-hero-3 {background:url(../images/background/6.jpg) fixed;}
+#section-hero-4 {background:url(../images/background/7.jpg) fixed;}
+#section-hero-5 {background:url(../images/background/8.jpg) fixed;}
+#section-hero-6 {background:url(../images/background/9.jpg) fixed;}
+#section-hero-8 {background:url(../images/background/12.jpg) fixed;}
+#section-hero-9 {background:url(../images/background/14.jpg);}
+#section-15 {background:url(../images/background/15.jpg) top center;}
+#section-16 {background:url(../images/background/16.jpg) top center;}
+#section-17 {background:url(../images/background/17.jpg) top center;}
+#section-experiences {background:url(../images/background/3.jpg) fixed;}
+#section-services.index-2 {background:url(../images/background/5a.jpg) fixed;}
+#section-experiences.index-2 {background:url(../images/background/5b.jpg) fixed;}
+#section-services.index-4 {background:url(../images/background/6a.jpg) fixed;}
+#section-experiences.index-4 {background:url(../images/background/6b.jpg) fixed;}
+#section-testimonial.index-4 {background:url(../images/background/6c.jpg) fixed;}
+#section-services.index-5 {background:url(../images/background/7a.jpg) fixed;}
+#section-experiences.index-5 {background:url(../images/background/7b.jpg) fixed;}
+#section-services.index-6 {background:url(../images/background/8.jpg) fixed;}
+#section-experiences.index-6 {background:url(../images/background/8.jpg) fixed;}
+#section-contact.index-6 {background:url(../images/background/8.jpg) fixed;}
+#section-side-1 .image-container{background:url(../images/background/bg-side-1.jpg);}
+#section-side-2 .image-container{background:url(../images/background/bg-side-2.jpg);}
+#section-side-3 .image-container{background:url(../images/background/bg-side-3.jpg);}
+
+
+/* #subheader{background:url(../images/background/2.jpg);} */
+
+body.custom-bg-1{background:url(../images/background/none.jpg);
+-moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position:center center;
+    background-attachment:fixed;
+}
+
+/* media query */
+@media only screen and (min-device-width: 768) and (max-device-width: 1024) and (orientation: portrait){
+	section{
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	background-attachment:scroll;
+	}
+}
+@media only screen and (max-width: 992px) {
+	#subheader{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment:scroll;
+	}
+}
+@media only screen and (max-width: 992px) {
+	section{
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	background-attachment:scroll;
+	}
+}

@@ -1,0 +1,185 @@
+
+section.test >.container >h3{
+    font-size: 12px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#fa6a2e;
+    text-align: center;
+    padding-bottom: 10px;
+}
+section.test >.container >h2{
+text-align: center;
+}
+#filters > a{
+  -webkit-border-radius: 3px !important;
+  padding: 5px 20px 5px 20px !important;
+  text-decoration: none;
+  font-size: 13px;
+}
+#filters{
+  padding-bottom: 10px;
+}
+.grid{
+  border: none !important;
+}
+.test > h2{
+  text-align: center !important;
+  font-family: 'Dosis', sans-serif !important;
+}
+.isotope_item_overlay{
+  background: rgba(64, 64, 64, .8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all .4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.isotope_item_overlay > h3{
+  text-align: center;
+  color: white;
+}
+
+.isotope_item_background:hover > .isotope_item_overlay{
+  background: rgba(64, 64, 64, .8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  transition: all .4s;
+}
+
+.isotope_item_background > img{
+  max-height: 100%;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  background-color: white;
+  color: #888 !important;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.button:hover {
+  color: #111 !important;
+}
+
+.button:active,
+.button.is-checked {
+  color:white !important;
+  background-color:#fa6a2e !important;
+  font-weight: 400 !important;
+}
+
+.button.is-checked {
+  color: white;
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 20px;
+  text-align: center !important;
+  font-family: 'Dosis', sans-serif !important;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+
+/* ---- isotope ---- */
+
+.grid {
+  border: 1px solid #333;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 33%;
+  background: #888;
+  color: #262524;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  position: absolute;
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+
+.element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
+.element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
+.element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
+.element-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
+.element-item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
+.element-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
+.element-item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
+.element-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
+.element-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
+.element-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
