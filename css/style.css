@@ -78,19 +78,27 @@ section.two{
 }
 
 section#tabs{
-	background:url("http://www.themenesia.com/themeforest/linea-new/images/background/2.jpg");
+	min-height:500px;
+	position: relative;
 }
-.tabs-nav-item > a.active{
-	background: #fa6a2e !important;
-	
+section#tabs > .container{
+	padding: 80px 0;
 }
-.tabs-nav-item > a.tabs-nav-link{
-	background: rgba(255, 255, 255, .1);
-	padding: 30px 40px;
-	margin: 0px 5px;
-	transition: all .4s;
+.tabs_element_paralax{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	background-image:url('http://www.themenesia.com/themeforest/linea-new/images/background/2.jpg');
+	background-attachment: fixed; 
+	background-position: center; 
+	background-repeat:no-repeat; 
+	background-size:cover; 
+	filter: brightness(60%) invert(20%);
 }
-h4.important{
+.sec_tabs_hed > h4{
 	font-size: 12px;
     letter-spacing: 20px;
     text-transform: uppercase;
@@ -98,9 +106,61 @@ h4.important{
     color:#fa6a2e;
     text-align: center;
 }
-.row > h2{
-	text-align: center;
+.sec_tabs_hed > h3{
+    text-align: center;
+    color: white;	
 }
+
+.tabs-nav-item > a.tabs-nav-link{
+	background: rgba(255,255,255,.1);
+	padding: 30px 40px;
+	margin:0px 5px;
+	transition: all .4s;
+}
+.tabs-nav-item > a.active{
+	background: #fa6a2e !important;
+	padding: 30px 40px;
+	margin:0px 5px;
+	transition: all .4s;
+	color:black !important;
+}
+
+li.tabs-nav-item::after{
+	content: "";
+	display: block;
+	clip-path: polygon(50% 50%, 33% 0, 67% 0 );
+	margin: 0px 5px;
+	background: #fa6a2e;
+	height: 0px;
+	transition: all .4s;
+}
+li.tabs-nav-item:hover::after{
+	content: "";
+	display: block;
+	clip-path: polygon(50% 50%, 33% 0, 67% 0 );
+	margin: 0px 5px;
+	background: #fa6a2e;
+	height: 40px;
+	transition: all .4s;
+}
+
+li.active_tab::after{
+	content: "";
+	display: block;
+	clip-path: polygon(50% 50%, 33% 0, 67% 0 );
+	margin: 0px 5px;
+	background: #fa6a2e;
+	height: 40px;
+	transition: all .4s;
+}
+
+.under_image{
+	display: block;
+}
+
+
+
+
 .button_a{
 	background: #fa6a2e;
     color: #fff;

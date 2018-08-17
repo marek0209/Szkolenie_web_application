@@ -32,3 +32,8 @@ function sticky_head(){
 	}
 }
 
+var element_listy = $ ('section#tabs > div >.tabs_container > #pills-tab > li.nav-item');
+element_listy.click(function(){
+	$('#pills-tab > li').removeClass('active_tab');
+	$(this).addClass('active_tab');
+})
