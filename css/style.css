@@ -159,8 +159,6 @@ li.active_tab::after{
 }
 
 
-
-
 .button_a{
 	background: #fa6a2e;
     color: #fff;
@@ -298,6 +296,44 @@ section.test{
 	padding-bottom: 20px;
 }
 
+.fa-orange{
+	color:#fa6a2e;
+}
+
+#owlquot > div > div.owl-stage-outer > div > div.owl-item > .owl_quote > div > i{
+	font-size: 20px;
+}
+
+#owlquot > div > div.owl-stage-outer > div > div.owl-item .owl-item > .owl_quote > img {
+	padding: 20px 0px;
+}
+#owlquot > div > div.owl-stage-outer > div > div.owl-item.active.center{
+	margin: 21px 40px 20px 0px !important;
+	top:-1px;
+	transform: scale(1.08);
+	background-color: #404040;
+	transition: all .4s;
+	font-weight:300;
+	padding:40px;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	color: white;
+}
+
+.owl-item{
+	margin-top:120px;
+	margin-bottom: 120px;
+}
+
+
+
+.img_in_owl_quote{
+	max-height:60px;
+	max-width:60px;
+	margin:0;
+}
+
 
 
 @keyframes preloader_animation_small {
@@ -340,6 +376,7 @@ section.test{
 .conatainer_feature_box{
 	padding-left: 20px;
 }
+
 
 /* ---- particles.js container ---- */
 
