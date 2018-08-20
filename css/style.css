@@ -491,6 +491,92 @@ section#team{
 .contactus_right >h4{
 	text-align: left;
 }
+section#counter{
+	background-color:rgb(64, 64, 64);
+}
+.count_to{
+	text-align: center;
+	padding: 50px;
+	background: none;
+}
+.count_to > h3{
+	font-size: 48px;
+    letter-spacing: 0px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: white !important;
+}
+.count_to > span{
+	color: white;
+}
+section#posts{
+	padding: 20px;
+}
+.owl_posts > img{
+	background-color: #f5f5f5;
+}
+.owl_post_content{
+	color: black;
+	background-color: #f5f5f5;
+    padding-top: 20px;
+}
+
+#posts > h4, h2{
+	text-align: center;
+}
+
+.owl_post_content > h1{
+	font-size: 18px;
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.owl_post_content > p{
+	margin-bottom: 20px;
+	 color: #86888c;
+	 font-size: 13px;
+}
+
+footer{
+	background: #222;
+	color:white;
+	padding: 30px;
+}
+footer >h5{
+	color: #fff;
+    font-size: 16px;
+    text-transform: none;
+    font-family: 'Dosis';
+    font-weight: bold;
+}
+.head_foot > ul{
+	list-style: none;
+	padding: 0;
+}
+.head_foot > ul > li >a{
+	text-decoration: none;
+	color: #888;
+	font-size: 13px;
+}
+.head_foot > ul > li >a:hover{
+	text-decoration: none;
+	color:#fa6a2e;
+	font-size: 13px;
+}
+.head_foot > p{
+	color:#ccc;
+	font-size: 13px;
+}
+section.copy > span{
+	border-top: 1px solid #404040;
+	display: block;
+	padding: 10px 0px;
+	font-size: 13px;
+	text-align: center;
+
+}
+
 
 @keyframes preloader_animation_small {
 	from {
